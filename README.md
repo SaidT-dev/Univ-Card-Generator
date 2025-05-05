@@ -4,10 +4,14 @@
 
 ![Preview](assets/preview.png)
 
+## 🌐 Live Demo
+
+👉 [View Demo](https://saidth-dev.github.io/Univ-Card-Generator/)
+
 ## 🚀 Features
 
 -   Interactive form for entering user data.
--   Dynamic selection of fields of study.
+-   Dynamic selection of study fields.
 -   Age calculation based on birthdate.
 -   Academic year deduction (starting September 1st).
 -   Faculty deduction based on selected field.
@@ -36,6 +40,10 @@
 ## 📦 Installation
 
 No installation required. Just open `index.html` in your browser!
+
+## 📜 License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
