@@ -1,0 +1,52 @@
+/*
+*
+*   Nom    :    TADJINE
+*   Prénom :    Said   
+*   Groupe :    B4
+*
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+form {
+    margin: 50px;
+}
+
+.carte {
+    display: none;
+    width: 700px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.carte > img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.carte > h3 {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.carte > ul {
+    justify-self: flex-start;
+    margin: 10px 0 30px 10px;
+    padding-top: 10px;
+    color: white;
+}

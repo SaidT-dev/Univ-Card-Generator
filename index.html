@@ -1,0 +1,63 @@
+<!--
+
+    Nom    :    TADJINE 
+    Prénom :    Said
+    Groupe :    B4
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Generateur care universitaire</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <form action="">
+            <!-- 2.a - Nom de l'utilisateur -->
+            <div class="nom">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" required />
+            </div>
+            <!-- 2.b - Prenom de l'utilisateur -->
+            <div class="prenom">
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" id="prenom" required />
+            </div>
+            <!-- 2.c - Date de naissance de l'utilisateur -->
+            <div class="birthdate">
+                <label for="birthdate">Date de naissance</label>
+                <input type="date" name="birthdate" id="birthdate" required />
+            </div>
+            <!-- 2.d - Lieu de naissance -->
+            <div class="birthplace">
+                <label for="birthplace">Lieu de naissance</label>
+                <select name="birthplace" id="birthplace" required>
+                    <option value="">--Choisir le lieu de naissance</option>
+                    <option value="tizi">Tizi Ouzou</option>
+                    <option value="bejaia">Bejaia</option>
+                </select>
+            </div>
+            <!-- 2.e - Univ affilie -->
+            <div class="univ">
+                <label for="univ">Universite</label>
+                <select name="univ" id="univ" required>
+                    <option value="">--Choisir votre universite--</option>
+                    <option value="UAMB">Universite de Bejaia</option>
+                    <option value="UMMTO">Universite de Tizi Ouzou</option>
+                </select>
+            </div>
+            <!-- 2.f - Filiere -->
+            <div class="filiere">
+                <label for="filiere">Filiere</label>
+                <select name="filiere" id="filiere" required></select>
+            </div>
+            <button id="submit" type="submit">Soumetre</button>
+            <button type="reset">Réinitialiser</button>
+        </form>
+
+        <div class="carte" id="carte"></div>
+        <script src="./script.js"></script>
+    </body>
+</html>
