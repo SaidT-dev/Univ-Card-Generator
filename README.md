@@ -1,65 +1,42 @@
-# 🎓 Univ Card Generator
+# Univ-Card-Generator
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-active-success)
-![HTML](https://img.shields.io/badge/tech-HTML5-orange)
-![CSS](https://img.shields.io/badge/tech-CSS3-blue)
-![JavaScript](https://img.shields.io/badge/tech-JS-yellow)
+🎓 A simple web application to generate university ID cards for students and teachers affiliated with either the University of Bejaia (UAMB) or the University of Tizi Ouzou (UMMTO).
 
-A university card generator built with vanilla HTML, CSS, and JavaScript.  
-The form allows users to enter personal details, select their university and major, and receive a dynamically generated student or teacher card.
+![Preview](assets/preview.png)
 
-## 🚀 Live Demo
+## 🚀 Features
 
-👉 [Click here to view the demo](https://saidT-dev.github.io/Univ-Card-Generator/)
+-   Interactive form for entering user data.
+-   Dynamic selection of fields of study.
+-   Age calculation based on birthdate.
+-   Academic year deduction (starting September 1st).
+-   Faculty deduction based on selected field.
+-   Grade deduction (License, Master, PhD Student, Teacher-Researcher).
+-   Internal/External status based on birthplace and university.
+-   Styled card generation with logo, title, color coding, and more.
+-   (Bonus) Custom ID generation on card click.
 
----
+## 🛠️ Built With
 
-## 📸 Preview
+-   HTML5
+-   CSS3
+-   JavaScript (Vanilla)
+-   MIT License
 
-> _You can replace this with a screenshot or GIF of the app interface._
+## 🧑 Author
 
-![Preview](./assets/preview.png)
+**Tadjine Said** | [@SaidT-dev](https://github.com/SaidT-dev)
 
----
+## 📋 How to Use
 
-## 📦 Features
+1. Fill in your personal information in the form.
+2. Submit the form to generate your personalized university card.
+3. Click on the generated card to view your unique custom ID.
 
--   Age and grade calculation based on birth date
--   Internal/external student status based on birthplace and university
--   Faculty deduction from selected major
--   Card type (Student / Teacher) based on age
--   Dynamic form validation
--   University-specific card image and background
+## 📦 Installation
 
----
-
-## 🏫 Faculties by Major
-
-```js
-const faculties = {
-  se: ['mat', 'inf'],
-  st: ['aut', 'tel'],
-  ll: ['fra', 'ang']
-};
+No installation required. Just open `index.html` in your browser!
 
 ---
 
-## 📁 Folder Structure
-Univ-Card-Generator/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── bejaia.png
-│   ├── tizi.png
-│   └── preview.png
-└── README.md
-
----
-
-##🛠️ Built With
- - HTML5
- - CSS3
- - JavaScript (Vanilla)
-```
+⭐ If you found this project helpful, feel free to give it a star!
