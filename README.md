@@ -11,7 +11,7 @@ A simple web application to generate university ID cards for students and teache
 
 ## 🌐 Live Demo
 
-👉 [View Demo](https://saidth-dev.github.io/Univ-Card-Generator/)
+👉 [View Demo](https://SaidT-dev.github.io/Univ-Card-Generator/)
 
 ## 🚀 Features
 
